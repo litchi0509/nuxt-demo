@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "nuxt-start",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "nuxt-start": "latest",
     "ant-design-vue": "^1.7.8",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
@@ -17,5 +18,7 @@
     "vue-template-compiler": "^2.6.14",
     "webpack": "^4.46.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nuxt": "latest"
+  }
 }
